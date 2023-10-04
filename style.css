@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #edefee;
+  margin: 3rem 3rem 5% 5%;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+ul li {
+  list-style: none;
+}
+nav a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  padding-right: 20px;
+  color: white;
+  text-decoration-line: none;
+}
+nav a:hover {
+  color: yellow;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+nav ul {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 30px;
+  background-color: darkslategrey;
+  border-top: 10px solid yellow;
+  border-radius: 50px 50px 50px 50px;
+}
+nav li {
+  display: inline-block;
+}
+article {
+  display: block;
+  background-color: darkkhaki;
+  border-top: 10px solid darkslategray;
+  padding: 20px 0px 0px 20px;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+}
+.article-paragraph {
+  padding: 20px 0px 20px 0px;
+}
+section ul {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  position: relative;
+}
+.menu,
+.delivery,
+.hour {
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: darkkhaki;
+  border-top: 10px solid darkslategray;
+  width: auto;
+  height: 500px;
+}
+.menu-title,
+.delivery-title,
+.hour-title,
+.menu-img,
+.delivery-img,
+.hour-img,
+.menu-paragraph,
+.delivery-paragraph,
+.hour-paragraph {
+  padding: 0px 0px 10px 0px;
+}
+.menu-title,
+.delivery-title,
+.hour-title {
+  text-align: center;
+}
+.menu-img,
+.delivery-img,
+.hour-img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.menu {
+  margin: 0px 5px 0px 0px;
+}
+.delivery {
+  margin: 0px 5px 0px 5px;
+}
+.hour {
+  margin: 0px 0px 0px 5px;
+}
+footer {
+  display: flex;
+}
+footer div {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  flex: 1;
+}
